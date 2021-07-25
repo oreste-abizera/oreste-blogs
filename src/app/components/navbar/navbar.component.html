@@ -1,0 +1,19 @@
+<nav class="navbar navbar-light navbar-expand-lg fixed-top-lg" [class.is-fixed]="fixed" [class.is-visible]="visible" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" routerLink="/"><b>ORESTE</b> blogs</a>
+        <button
+        class="navbar-toggler" [class.collapsed]="collapsed"
+        (click)="toggleCollapse()" 
+        >
+        <span class="navbar-toggler-icon"></span></button>
+
+        <div class="collapse navbar-collapse" [class.show]="!collapsed">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" routerLink="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/about">About us</a></li>
+                <li class="nav-item"><a class="nav-link" routerLink="/contact">Contact us</a></li>
+                <li class="nav-item"><a class="nav-link" href="https://oresteabizera.tech/" target="_blank">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
