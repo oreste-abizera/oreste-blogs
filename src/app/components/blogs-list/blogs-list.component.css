@@ -1,0 +1,47 @@
+.blogs-list {
+  margin-bottom: 2rem;
+}
+
+.post-preview > hr {
+  margin-top: 1.5rem;
+}
+
+.post-preview > a {
+  color: #212529;
+  text-decoration: none;
+}
+.post-preview > a:focus,
+.post-preview > a:hover {
+  text-decoration: none;
+  color: #0085a1;
+}
+.post-preview > a > .post-title {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.post-preview > a > .post-subtitle {
+  font-weight: 100;
+  margin: 0 0 10px;
+}
+.post-preview > .post-meta {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0;
+  color: #6c757d;
+}
+.post-preview > .post-meta > a {
+  text-decoration: none;
+  color: #212529;
+}
+.post-preview > .post-meta > a:focus,
+.post-preview > .post-meta > a:hover {
+  text-decoration: underline;
+  color: #0085a1;
+}
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px;
+  }
+}

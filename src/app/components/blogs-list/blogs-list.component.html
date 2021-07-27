@@ -1,0 +1,26 @@
+<div class="container blogs-list">
+  <div class="row">
+    <div class="col-md-10 col-lg-8">
+      <div class="post-preview" *ngFor="let blog of blogs">
+        <a href="#">
+          <h2 class="post-title">
+            {{ blog.title }}
+          </h2>
+          <h3 class="post-subtitle">
+            {{ blog.subtitle }}
+          </h3>
+        </a>
+        <p class="post-meta">
+          Posted by&nbsp;<a href="#">{{ blog.author }} on {{ blog.date }}</a>
+        </p>
+
+        <hr />
+      </div>
+      <div class="clearfix">
+        <button class="btn btn-primary float-end" type="button">
+          Older Posts&nbsp;⇒
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
